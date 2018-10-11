@@ -13,8 +13,7 @@ def line(deli)
   end
 end
 
-def take_a_number(deli)
-  
+def take_a_number(deli, number)
   deli.push(number)
   puts "Welcome, You are #{number}."
   number += 1
