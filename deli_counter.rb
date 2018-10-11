@@ -14,7 +14,7 @@ def line(deli)
 end
 
 def take_a_number(deli)
-  puts "Welcome, You are number #{deli.length} in line."
+  puts "Welcome, You are number #{deli.length}."
 end
 
 def now_serving(deli)
