@@ -1,4 +1,4 @@
-require 'pry'
+number = 1
 
 def line(deli)
   customers = []
@@ -14,7 +14,7 @@ def line(deli)
 end
 
 def take_a_number(deli)
-  number = 1
+  
   deli.push(number)
   puts "Welcome, You are #{number}."
   number += 1
